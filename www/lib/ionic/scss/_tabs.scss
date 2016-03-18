@@ -249,9 +249,9 @@
 @include tabs-background('tabs-background-positive', $positive, $bar-positive-border);
 @include tabs-background('tabs-background-calm', $calm, $bar-calm-border);
 @include tabs-background('tabs-background-assertive', $assertive, $bar-assertive-border);
-@include tabs-background('tabs-background-balanced', $balanced, $bar-royal-border);
-@include tabs-background('tabs-background-energized',$energized, $bar-royal-border);
-@include tabs-background('tabs-background-royal', $royal, $bar-royal-border);
+@include tabs-background('tabs-background-balanced', $balanced, $bar-calm-border);
+@include tabs-background('tabs-background-energized',$energized, $bar-calm-border);
+@include tabs-background('tabs-background-royal', $royal, $bar-calm-border);
 @include tabs-background('tabs-background-dark', $dark, $bar-dark-border);
 
 @include tabs-color('tabs-color-light', $light);

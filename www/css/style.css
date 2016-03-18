@@ -1,3 +1,6 @@
+.nav-bar-block, .bar {
+  background-color: #0088AC !important;
+}
 
 body {
     font-family: 'Segoe UI', sans-serif;

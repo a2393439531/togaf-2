@@ -44,16 +44,16 @@ angular.module('starter')
 
 .service('awsService',function(localStorageService){
  var topics = [
-                { title: 'Practice Set 1', desc:'', id: 1 ,url:'data/img/Route53.png'},
-                { title: 'Practice Set 2', desc:'', id: 2 ,url:'data/img/RDS.png'},
-                { title: 'Practice Set 3', desc:'', id: 3 ,url:'data/img/IAM.png'},
-                { title: 'Practice Set 4', desc:'', id: 4 ,url:'data/img/EC2.png'},
-                { title: 'Practice Set 5',desc:'',  id: 5 ,url:'data/img/S3.png'},
-                { title: 'Practice Set 6', desc:'', id: 6 ,url:'data/img/VPC.png'},
-                { title: 'Practice Set 7', desc:'', id: 7 ,url:'data/img/ElasticBeanstalk.png'},
-                { title: 'Practice Set 8',desc:'',  id: 8 ,url:'data/img/SQS.png'},
-                { title: 'Practice Set 9',desc:'',  id: 9 ,url:'data/img/SNS.png'},
-                { title: 'Practice Set 10', desc:'', id: 10 ,url:'data/img/SWF.png'}
+                { title: 'Practice Set 1', desc:'', id: 1 ,url:'data/img/togaf.jpg'},
+                { title: 'Practice Set 2', desc:'', id: 2 ,url:'data/img/togaf.jpg'},
+                { title: 'Practice Set 3', desc:'', id: 3 ,url:'data/img/togaf.jpg'},
+                { title: 'Practice Set 4', desc:'', id: 4 ,url:'data/img/togaf.jpg'},
+                { title: 'Practice Set 5',desc:'',  id: 5 ,url:'data/img/togaf.jpg'},
+                { title: 'Practice Set 6', desc:'', id: 6 ,url:'data/img/togaf.jpg'},
+                { title: 'Practice Set 7', desc:'', id: 7 ,url:'data/img/togaf.jpg'},
+                { title: 'Practice Set 8',desc:'',  id: 8 ,url:'data/img/togaf.jpg'},
+                { title: 'Practice Set 9',desc:'',  id: 9 ,url:'data/img/togaf.jpg'},
+                { title: 'Practice Set 10', desc:'', id: 10 ,url:'data/img/togaf.jpg'}
               ];
 
     var mockExams = [

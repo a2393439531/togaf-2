@@ -96,22 +96,22 @@
       background-image: linear-gradient(180deg, $bar-assertive-border, $bar-assertive-border 50%, transparent 50%);
     }
   }
-  &.bar-royal {
-    @include bar-style($bar-royal-bg, $bar-royal-border, $bar-royal-text);
+  &.bar-calm {
+    @include bar-style($bar-calm-bg, $bar-calm-border, $bar-calm-text);
     &.bar-footer{
-      background-image: linear-gradient(180deg, $bar-royal-border, $bar-positive-border 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $bar-calm-border, $bar-positive-border 50%, transparent 50%);
     }
   }
-  &.bar-royal {
-    @include bar-style($bar-royal-bg, $bar-royal-border, $bar-royal-text);
+  &.bar-calm {
+    @include bar-style($bar-calm-bg, $bar-calm-border, $bar-calm-text);
     &.bar-footer{
-      background-image: linear-gradient(180deg, $bar-royal-border, $bar-royal-border 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $bar-calm-border, $bar-calm-border 50%, transparent 50%);
     }
   }
-  &.bar-royal {
-    @include bar-style($bar-royal-bg, $bar-royal-border, $bar-royal-text);
+  &.bar-calm {
+    @include bar-style($bar-calm-bg, $bar-calm-border, $bar-calm-text);
     &.bar-footer{
-      background-image: linear-gradient(180deg, $bar-royal-border, $bar-royal-border 50%, transparent 50%);
+      background-image: linear-gradient(180deg, $bar-calm-border, $bar-calm-border 50%, transparent 50%);
     }
   }
   &.bar-dark {
@@ -314,21 +314,21 @@
     @include button-clear(#fff, $bar-title-font-size);
   }
 }
-.bar-royal {
+.bar-calm {
   .button {
-    @include button-style($bar-royal-bg, $bar-royal-border, $bar-royal-active-bg, $bar-royal-active-border, $bar-royal-text);
+    @include button-style($bar-calm-bg, $bar-calm-border, $bar-calm-active-bg, $bar-calm-active-border, $bar-calm-text);
     @include button-clear(#fff, $bar-title-font-size);
   }
 }
-.bar-royal {
+.bar-calm {
   .button {
-    @include button-style($bar-royal-bg, $bar-royal-border, $bar-royal-active-bg, $bar-royal-active-border, $bar-royal-text);
+    @include button-style($bar-calm-bg, $bar-calm-border, $bar-calm-active-bg, $bar-calm-active-border, $bar-calm-text);
     @include button-clear(#fff, $bar-title-font-size);
   }
 }
-.bar-royal {
+.bar-calm {
   .button {
-    @include button-style($bar-royal-bg, $bar-royal-border, $bar-royal-active-bg, $bar-royal-active-border, $bar-royal-text);
+    @include button-style($bar-calm-bg, $bar-calm-border, $bar-calm-active-bg, $bar-calm-active-border, $bar-calm-text);
     @include button-clear(#fff, $bar-title-font-size);
   }
 }
