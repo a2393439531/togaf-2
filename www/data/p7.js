@@ -1,107 +1,71 @@
 {
     "quiz": {
         "Id": 7,
-        "name": "Practice Quiz 7",
-        "logo" : "data/img/ElasticBeanstalk.png"
+        "name": "Architecture Governance",
+        "logo" : "data/img/togaf.jpg"
     },
     "questions": [{
         "Id": 1,
-        "Name": "AWS Elastic Beanstalk is not currently supported for which of the following servers?",
+        "Name": "The following are key Architecture Governance processes, except for ____? (Select 1) ",
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Apache", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Nginx", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Passenger", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "IIS", "IsAnswer": false },
-            { "Id": 1059, "QuestionId": 1010, "Name": "Websphere", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Compliance", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Budgetary control", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Dispensation", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Monitoring and reporting", "IsAnswer": false },
+            { "Id": 1059, "QuestionId": 1010, "Name": "Business control", "IsAnswer": true }]
                 
        
     },
     {
         "Id": 2,
-        "Name": "What is the default period for which messages will stay in SQS queues:", 
+        "Name": "Which of the following best defines the characteristics of Architecture Governance? (Select 1)", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "1 hr", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "4 days", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "10 days", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "1 week", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Compliance, budgetary control, dispensation, monitoring, reporting & business control.", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Discipline, transparency, independence, accountability, responsibility & fairness. ", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Compliance, transparency, dispensation, accountability & business control.", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Identification, authentication, authorisation & accountability.", "IsAnswer": false }]
         
     },
     {
         "Id": 3,
-        "Name": "AWS Elastic Beanstalk is not currently supported for which of the following languages?", 
+        "Name": "Which of the following are included in Architecture Governance? (Select 5) ", 
+        
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Java", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Go", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Docker", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Scala", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Developing processes that ensure accountability to stakeholders.", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Ensuring that the business processes, policies and their operation deliver the business outcomes and adhere to relevant business regulation. ", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "A framework to achieve the objectives set by the board, setting out the board's policies and staff's responsibilities concerning the financial affairs of the company.", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Establishing processes that support agreed service levels.", "IsAnswer": true },
+            { "Id": 1059, "QuestionId": 1010, "Name": "Implementing a system to ensure compliance with internal and external standards and regulatory obligations.", "IsAnswer": true },
+            { "Id": 1060, "QuestionId": 1010, "Name": "Implementing a system of controls to ensure effective introduction, implementation and evolution of architectures within the organisation.", "IsAnswer": true },
+            { "Id": 1061, "QuestionId": 1010, "Name": "Defining and applying the system by which the organisation is directed and controlled. ", "IsAnswer": false }]
         
     },
     {
         "Id": 4,
-        "Name": "AWS Elastic Beanstalk can have multiple versions of an application running at the same time.", 
+        "Name": "Which phase of the ADM covers Implementation Governance?", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "True", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "False", "IsAnswer": false }] 
+            { "Id": 1055, "QuestionId": 1010, "Name": "Phase A", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Phase F", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Phase G", "IsAnswer": true },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Phase H", "IsAnswer": false },
+            { "Id": 1059, "QuestionId": 1010, "Name": "Phases A to D", "IsAnswer": false },
+            { "Id": 1060, "QuestionId": 1010, "Name": "The Preliminary Phase", "IsAnswer": false }]
+        
     },
     {
         "Id": 5,
-        "Name": "A company has decided to use a Bastion host to restrict access to their network for security purposes. Their network admins will SSH in to the bastion host and then on to other EC2 instances in a private subnet. The bastion hosts should be highly available. How should you build this environment?", 
+        "Name": "Which of the following are benefits of Architecture Governance? (Select 3)", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Create 2 EC2 instances in separate availability zones. Place these instances behind and elastic load balancer and then ask the SysAdmins to connect to the ELB's public DNS name via SSH.", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Create 2 EC2 instances in the same subnet. Create a DNS entry in Route53 which uses Round Robin DNS and points to each instance. Tell the SysAdmins to connect using the new DNS entry.", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Create 2 EC2 instances in different subnets. Create a DNS entry in Route53 which uses Round Robin DNS and points to each instance. Tell the SysAdmins to connect using the new DNS entry.", "IsAnswer": true},
-            { "Id": 1058, "QuestionId": 1010, "Name": "Create 1 EC2 instance in a private subnet. Connect to this EC2 instance using a site to site VPN. Configure your router to automatically reconnect if the VPN is dropped.", "IsAnswer": false}]
-    },
-    {
-        "Id": 6,
-        "Name": "With respect to taking snapshots of EBS volumes, which of the below is true?", 
+            { "Id": 1055, "QuestionId": 1010, "Name": "It links the IT processes, resources and information to the organisation's business strategies and objectives.", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "It removes the need for the management of risk and makes risks less visible to stakeholders.", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "It ensures that the organisation will realise its business objectives.", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "It enables the organisation to take better advantage of its information, infrastructure and hardware / software assets.", "IsAnswer": true },
+            { "Id": 1059, "QuestionId": 1010, "Name": "It supports regulatory and best practice requirements such as security, responsibility and accountability.", "IsAnswer": true },
+            { "Id": 1060, "QuestionId": 1010, "Name": "It ensures that all IT projects will delivery on time and within budget.", "IsAnswer": false }]
         
-        "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "The EBS Volume cannot be attached or detached until the snapshot has been completed.", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "The EBS volume will be read only until the snapshot completes.", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "The EBS volume will be unusable until the snapshot completes", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "The EBS volume can continue to be used while the snaphot is taking place.", "IsAnswer": true }]
-        
-    },
-    {
-        "Id": 7,
-        "Name": "An application uses Elasticache to cache database queries. CloudWatch metrics are used to monitor the Memcached performance.  Two metrics, Evictions (The number of non-expired items the cache evicted to allow space for new writes.) and GetMisses (The number of get requests the cache has received where the key requested was not found.) are getting very high. What should you do to scale the environment further?", 
-        
-      "Options": [
-             { "Id": 1055, "QuestionId": 1010, "Name": "Increase the number of nodes in the memcached cluster or increase the size of each node in your cluster.", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Decrease the number of nodes in the memcached cluster or decrease the size of each node in your cluster.", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Migrate from Memcached to Redis.", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Use CloudFront as an alternative caching engine.", "IsAnswer": false }] 
-        
-    },
-    {
-        "Id": 8,
-        "Name": "By default, applications created in ElasticBeanstalk are publicly accessible for anyone to access?", 
-        
-        "Options": [
-              { "Id": 1055, "QuestionId": 1010, "Name": "True", "IsAnswer": true },
-              { "Id": 1056, "QuestionId": 1010, "Name": "False", "IsAnswer": false }] 
-    },
-    {
-        "Id": 9,
-        "Name": "Which of the following can you use to make your application private when you first create it in ElasticBeanstalk?", 
-        "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Amazon VPC", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Amazon S3", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Amaozn IAM roles", "IsAnswer": false }]
-        
-    },
-    {
-        "Id": 10,
-        "Name": "A company is hosting their blogging site on-premise.  You are migrating this application to AWS so that it can be scaled further. The company would like to implement chef recipes to configure their infrastructure  in a scripted fashion. What AWS service would let you do this while reducing administrative over heads?", 
-       "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "EC2", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Elastic Beanstalk", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Opworks", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "CloudFront", "IsAnswer": false }]
     }
      ]
 }

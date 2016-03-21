@@ -44,22 +44,26 @@ angular.module('starter')
 
 .service('awsService',function(localStorageService){
  var topics = [
-                { title: 'Practice Set 1', desc:'', id: 1 ,url:'data/img/togaf.jpg'},
-                { title: 'Practice Set 2', desc:'', id: 2 ,url:'data/img/togaf.jpg'},
-                { title: 'Practice Set 3', desc:'', id: 3 ,url:'data/img/togaf.jpg'},
-                { title: 'Practice Set 4', desc:'', id: 4 ,url:'data/img/togaf.jpg'},
-                { title: 'Practice Set 5',desc:'',  id: 5 ,url:'data/img/togaf.jpg'},
-                { title: 'Practice Set 6', desc:'', id: 6 ,url:'data/img/togaf.jpg'},
-                { title: 'Practice Set 7', desc:'', id: 7 ,url:'data/img/togaf.jpg'},
-                { title: 'Practice Set 8',desc:'',  id: 8 ,url:'data/img/togaf.jpg'},
-                { title: 'Practice Set 9',desc:'',  id: 9 ,url:'data/img/togaf.jpg'},
-                { title: 'Practice Set 10', desc:'', id: 10 ,url:'data/img/togaf.jpg'}
+                { title: 'Basic Concepts', desc:'', id: 1 ,url:'data/img/togaf.jpg'},
+                { title: 'Core Concepts', desc:'', id: 2 ,url:'data/img/togaf.jpg'},
+                { title: 'Introduction to ADM', desc:'', id: 3 ,url:'data/img/togaf.jpg'},
+                { title: 'Enterprise Continuum & Tools', desc:'', id: 4 ,url:'data/img/togaf.jpg'},
+                { title: 'ADM Phases',desc:'',  id: 5 ,url:'data/img/togaf.jpg'},
+                { title: 'ADM Guidelines & Techniques', desc:'', id: 6 ,url:'data/img/togaf.jpg'},
+                { title: 'Architecture Governance', desc:'', id: 7 ,url:'data/img/togaf.jpg'},
+                { title: 'Arch Views, ViewPoints, Stakeholders', desc:'', id: 8 ,url:'data/img/togaf.jpg'},
+                { title: 'Building Blocks', desc:'', id: 9 ,url:'data/img/togaf.jpg'},
+                { title: 'ADM Deliverables', desc:'', id: 10 ,url:'data/img/togaf.jpg'},
+                { title: 'TOGAF Reference Models', desc:'', id: 11 ,url:'data/img/togaf.jpg'},
+             
               ];
 
     var mockExams = [
-                { title: 'Certification Exam 1', id: 400 ,url:'data/img/certified.png'},
-                { title: 'Certification Exam 2', id: 100 ,url:'data/img/certified.png'},
-                { title: 'Certification Exam 3', id: 300 ,url:'data/img/certified.png'}
+                { title: 'Practice Exam 1', id: 100 ,url:'data/img/blue-cert.jpg'},
+                { title: 'Practice Exam 2', id: 200 ,url:'data/img/blue-cert.jpg'},
+                { title: 'Practice Exam 3', id: 300 ,url:'data/img/blue-cert.jpg'},
+                { title: 'Official Exam 1', id: 400 ,url:'data/img/blue-cert.jpg'},
+                { title: 'Official Exam 2', id: 500 ,url:'data/img/blue-cert.jpg'}
                
               ];
 

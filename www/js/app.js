@@ -33,11 +33,12 @@ angular.module('starter', ['ionic', 'starter.controllers','timer','LocalStorageM
     8 : 'data/p8.js',
     9 : 'data/p9.js',
     10 : 'data/p10.js',
-    11 : 'data/dynamoDb.js',
-    12 : 'data/cf.js',
-    100 : 'data/practice1.js',
-    300 : 'data/exam.js',
-    400: 'data/mini1.js'
+    11 : 'data/p11.js',
+    100 : 'data/exam1.js',
+    200 : 'data/exam2.js',
+    300: 'data/exam3.js',
+    400: 'data/exam4.js',
+    500: 'data/exam5.js'
 })
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider

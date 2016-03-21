@@ -1,7 +1,7 @@
 {
     "quiz": {
         "Id": 7,
-        "name": "Building Blocks",
+        "name": "TOGAF Reference Models",
         "logo" : "data/img/togaf.jpg"
     },
     "questions": [{
