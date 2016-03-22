@@ -101,16 +101,16 @@
     @include button-outline($button-assertive-bg);
   }
 
-  &.button-royal {
-    @include button-style($button-royal-bg, $button-royal-border, $button-royal-active-bg, $button-royal-active-border, $button-royal-text);
-    @include button-clear($button-royal-bg);
-    @include button-outline($button-royal-bg);
+  &.button-balanced {
+    @include button-style($button-balanced-bg, $button-balanced-border, $button-balanced-active-bg, $button-balanced-active-border, $button-balanced-text);
+    @include button-clear($button-balanced-bg);
+    @include button-outline($button-balanced-bg);
   }
 
-  &.button-royal {
-    @include button-style($button-royal-bg, $button-royal-border, $button-royal-active-bg, $button-royal-active-border, $button-royal-text);
-    @include button-clear($button-royal-bg);
-    @include button-outline($button-royal-bg);
+  &.button-energized {
+    @include button-style($button-energized-bg, $button-energized-border, $button-energized-active-bg, $button-energized-active-border, $button-energized-text);
+    @include button-clear($button-energized-bg);
+    @include button-outline($button-energized-bg);
   }
 
   &.button-royal {

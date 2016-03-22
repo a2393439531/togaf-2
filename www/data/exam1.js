@@ -1,7 +1,7 @@
 {
     "quiz": {
         "Id": 1,
-        "name": "Practice Exam 1 Check!",
+        "name": "Practice Exam 1",
         "logo" : "data/img/exam.jpg"
     },
     "questions": [{

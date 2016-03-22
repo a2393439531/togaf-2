@@ -1,7 +1,7 @@
 {
     "quiz": {
         "Id": 3,
-        "name": "Practice Exam 3 (Actual #3)",
+        "name": "Practice Exam 3",
         "logo" : "data/img/exam.jpg"
     },
     "questions": [{
@@ -9,10 +9,10 @@
         "Name": "Which of the following describes an architecture from a specific view point?", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "A deliverable", "IsAnswer": true },
+            { "Id": 1055, "QuestionId": 1010, "Name": "A deliverable", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "A building block", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "An Architectural Building Block", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "An artifact", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "An artifact", "IsAnswer": true },
             { "Id": 1059, "QuestionId": 1010, "Name": "A Solution Building Block", "IsAnswer": false }]
 
     },
@@ -82,10 +82,10 @@
 
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "The Enterprise Continuum provides a view of the Architecture Repository", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "The Enterprise Continuum uses the structure in the architecture Repository for the classification of assets", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "The Enterprise Continuum uses the structure in the architecture Repository for the classification of assets", "IsAnswer": true },
             { "Id": 1057, "QuestionId": 1010, "Name": "The Enterprise Continuum comprises two complementary concepts: the Architecture Continuum and the Solutions Continuum", "IsAnswer": false },
             { "Id": 1058, "QuestionId": 1010, "Name": "The Enterprise Continuum explains how generic solutions can be specialized to support a particular organization", "IsAnswer": false },
-            { "Id": 1059, "QuestionId": 1010, "Name": "The Enterprise Continuum contains Architecture Context and Requirements, the Architecture Continuum, the Solutions Continuum and Deployed Solutions", "IsAnswer": true }]
+            { "Id": 1059, "QuestionId": 1010, "Name": "The Enterprise Continuum contains Architecture Context and Requirements, the Architecture Continuum, the Solutions Continuum and Deployed Solutions", "IsAnswer": false }]
 
     },
      {
@@ -108,8 +108,8 @@
             { "Id": 1055, "QuestionId": 1010, "Name": "Value creation through monitoring, measuring, evaluation and feedback", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Greater shareholder value", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "Protection of the existing asset base through reuse", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Managing compliance", "IsAnswer": false },
-            { "Id": 1059, "QuestionId": 1010, "Name": "Controlled risk management", "IsAnswer": true }]
+            { "Id": 1058, "QuestionId": 1010, "Name": "Managing compliance", "IsAnswer": true },
+            { "Id": 1059, "QuestionId": 1010, "Name": "Controlled risk management", "IsAnswer": false }]
         
     },
      {
@@ -129,10 +129,10 @@
         "Name": "‘The Architectural Representation of assets deployed within the operating enterprise’ is the TOGAF definition of which term?", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Architecture view", "IsAnswer": true },
+            { "Id": 1055, "QuestionId": 1010, "Name": "Architecture view", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Artifact", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "View", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Architecture Landscape", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Architecture Landscape", "IsAnswer": true },
             { "Id": 1059, "QuestionId": 1010, "Name": "Solution Architecture", "IsAnswer": false }]
         
     },
@@ -156,8 +156,8 @@
             { "Id": 1055, "QuestionId": 1010, "Name": "To create evolve and monitor the detailed Implementation and Migration plan", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "To prioritize all work packages, projects and building blocks", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "To confirm the Transition Architectures defined in Phase E", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "To finalise the Architecture Vision and Architecture Definition Document", "IsAnswer": true },
-            { "Id": 1059, "QuestionId": 1010, "Name": "To generate and gain consensus on an outline Implementation and Migration Strategy", "IsAnswer": false }]
+            { "Id": 1058, "QuestionId": 1010, "Name": "To finalise the Architecture Vision and Architecture Definition Document", "IsAnswer": false },
+            { "Id": 1059, "QuestionId": 1010, "Name": "To generate and gain consensus on an outline Implementation and Migration Strategy", "IsAnswer": true }]
         
     },
      {
@@ -179,9 +179,9 @@
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Architecture Definition, Architecture Delivery, Architecture Planning and Architecture Governance", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Architecture Context, Architecture Definition, Transition Planning and Architecture Governance", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Architecture Context, Architecture Definition, Transition Planning and Architecture Requirements Management", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Architecture Scope, Architecture Design, Transition Planning and Architecture Governance", "IsAnswer": true },
-            { "Id": 1059, "QuestionId": 1010, "Name": "Architecture Context, Architecture Definition, Architecture Planning and Architecture Requirements Management", "IsAnswer": true }]
+            { "Id": 1057, "QuestionId": 1010, "Name": "Architecture Context, Architecture Definition, Transition Planning and Architecture Requirements Management", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Architecture Scope, Architecture Design, Transition Planning and Architecture Governance", "IsAnswer": false },
+            { "Id": 1059, "QuestionId": 1010, "Name": "Architecture Context, Architecture Definition, Architecture Planning and Architecture Requirements Management", "IsAnswer": false }]
         
     },
      {
@@ -190,9 +190,9 @@
         
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Architecture Principles maybe established at one or all three levels of enterprise, Information Technology and Architecture", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Principles are developed by the lead enterprise architect in conjunction with the CIO, the Architecture Board and other key stakeholders", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Principles are developed by the lead enterprise architect in conjunction with the CIO, the Architecture Board and other key stakeholders", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "Principles must be Understandable, Robust, Complete, Consistent and Stable", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "The Components of Architecture Principles are Name, Statement, Rationale, Implications and Risks and Issues.", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "The Components of Architecture Principles are Name, Statement, Rationale, Implications and Risks and Issues.", "IsAnswer": true },
             { "Id": 1059, "QuestionId": 1010, "Name": "Principles are inter-related and need to be applied as a set. Principles will sometimes compete.", "IsAnswer": false }]
         
     },
@@ -203,8 +203,8 @@
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Organization, Location and Capabilities", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Actor, Location, Role and Capabilities", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Requirements, Actor and Function", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Location, Actor, Role, and Organization", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Requirements, Actor and Function", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Location, Actor, Role, and Organization", "IsAnswer": true },
             { "Id": 1059, "QuestionId": 1010, "Name": "Actor, Location and Structure", "IsAnswer": false }]
         
     },
@@ -225,9 +225,9 @@
         "Name": "Within the Taxonomy of Architecture Viewpoints which of the following is a Core Diagram of the Architecture Vision?", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Stakeholder Map Matrix", "IsAnswer": true },
+            { "Id": 1055, "QuestionId": 1010, "Name": "Stakeholder Map Matrix", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Principles Catalog", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Solution Concept Diagram", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Solution Concept Diagram", "IsAnswer": true},
             { "Id": 1058, "QuestionId": 1010, "Name": "Benefits Diagram", "IsAnswer": false},
             { "Id": 1059, "QuestionId": 1010, "Name": "Enterprise Manageability Diagram", "IsAnswer": false}]
         
@@ -240,8 +240,8 @@
             { "Id": 1055, "QuestionId": 1010, "Name": "Implementation and Migration Strategy", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Implementation Plan", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "Project Charters", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "Work Package Portfolio", "IsAnswer": false},
-            { "Id": 1059, "QuestionId": 1010, "Name": "Interactions with other management frameworks", "IsAnswer": true}]
+            { "Id": 1058, "QuestionId": 1010, "Name": "Work Package Portfolio", "IsAnswer": true},
+            { "Id": 1059, "QuestionId": 1010, "Name": "Interactions with other management frameworks", "IsAnswer": false}]
         
     },
      {
@@ -263,9 +263,9 @@
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "A viewpoint is where you are looking from – the vantage point or perspective that determines what you see", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "A view is a representation of a whole system from the perspective of a related set of concerns", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "An architectural description is a collection of artefacts that document an architecture", "IsAnswer": true},
+            { "Id": 1057, "QuestionId": 1010, "Name": "An architectural description is a collection of artefacts that document an architecture", "IsAnswer": false},
             { "Id": 1058, "QuestionId": 1010, "Name": "Concerns are the key interests that are crucially important to the stakeholders in the system and determine the acceptability of the system.", "IsAnswer": false},
-            { "Id": 1059, "QuestionId": 1010, "Name": "A system is a regularly interacting or interdependent group of items forming a unified whole", "IsAnswer": false}]
+            { "Id": 1059, "QuestionId": 1010, "Name": "A system is a regularly interacting or interdependent group of items forming a unified whole", "IsAnswer": true}]
         
     },
      {
@@ -273,10 +273,10 @@
         "Name": "The following text is taken from the Terminology section of Architecture Compliance on TOGAF ‘All the features in the architecture specification are implemented in accordance with the specification, but some more features are implemented that are not in accordance with it.’ This text describes which level of architecture compliance?", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Irrelevant", "IsAnswer": true },
+            { "Id": 1055, "QuestionId": 1010, "Name": "Irrelevant", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Consistent", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "Compliant", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Conformant", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Conformant", "IsAnswer": true },
             { "Id": 1059, "QuestionId": 1010, "Name": "Non-Conformant", "IsAnswer": false }]
         
     },
@@ -297,9 +297,9 @@
         "Name": "TOGAF classifies risk in response to their likely effect and frequency. Which of the following answers does not come from the suggested classification system in TOGAF?", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Effect can be classified as ‘Catastrophic, Crucial, Marginal and Negligible’", "IsAnswer": true },
+            { "Id": 1055, "QuestionId": 1010, "Name": "Effect can be classified as ‘Catastrophic, Crucial, Marginal and Negligible’", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Frequency can be classified as ‘Frequent, Likely, Occasional, Seldom and Unlikely’", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "The Impact of a risk, that is the combination of Effect and Frequency can be classified as ‘High Risk, Moderate Risk and Low Risk’", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "The Impact of a risk, that is the combination of Effect and Frequency can be classified as ‘High Risk, Moderate Risk and Low Risk’", "IsAnswer": true },
             { "Id": 1058, "QuestionId": 1010, "Name": "Risks with an Unlikely frequency and Negligible effect are classified with an impact of Low Risk", "IsAnswer": false },
             { "Id": 1059, "QuestionId": 1010, "Name": "Risks with a Likely frequency and Marginal effect are classified with an impact of Moderate Risk", "IsAnswer": false }]
         
@@ -309,11 +309,11 @@
         "Name": "Which one of the following statements does not come from TOGAF Risk Management?", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Risk Management is an integral part of enterprise architecture", "IsAnswer": true },
+            { "Id": 1055, "QuestionId": 1010, "Name": "Risk Management is an integral part of enterprise architecture", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Risk mitigation refers to the identification, planning, and conduct of actions that will reduce the risk to an acceptable level", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "Residual risks have to be approved by the IT governance framework", "IsAnswer": false },
             { "Id": 1058, "QuestionId": 1010, "Name": "Initial Level of Risk is the risk categorisation prior to determining and implementing mitigating actions", "IsAnswer": false },
-            { "Id": 1059, "QuestionId": 1010, "Name": "The activities in risk management are Risk Identification, Risk Quantification, Risk Response Development and Risk Response Control", "IsAnswer": false }]
+            { "Id": 1059, "QuestionId": 1010, "Name": "The activities in risk management are Risk Identification, Risk Quantification, Risk Response Development and Risk Response Control", "IsAnswer": true }]
         
     },
      {
@@ -321,11 +321,11 @@
         "Name": "TOGAF states the basic premise of Gap Analysis is to:", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Highlight a shortfall between the Baseline Architecture and the Target Architecture", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Highlight stakeholders which have not been addressed", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Validate an architecture to consider what may have been forgotten", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Compare Baseline Architecture ABBs with Target Architecture ABBs identifying the building blocks which are ‘New, Eliminated and Included’", "IsAnswer": true },
-            { "Id": 1059, "QuestionId": 1010, "Name": "Identify potential sources of gaps from the business, data, applications and technology domains.", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Highlight a shortfall between the Baseline Architecture and the Target Architecture", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Highlight stakeholders which have not been addressed", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Validate an architecture to consider what may have been forgotten", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Compare Baseline Architecture ABBs with Target Architecture ABBs identifying the building blocks which are ‘New, Eliminated and Included’", "IsAnswer": false },
+            { "Id": 1059, "QuestionId": 1010, "Name": "Identify potential sources of gaps from the business, data, applications and technology domains.", "IsAnswer": false }]
         
     },
      {
@@ -335,9 +335,9 @@
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Business Scenarios describe a method for deriving business requirements for architecture and the implied technical requirements", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Business Scenarios define requirements for sharing information and services within an organisation", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Business Scenarios are principally used during the Architecture Vision and Business Architecture phases of the ADM.", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Business Scenarios describe a business process and application, the business and technology environment, the actors and the desired outcome of proper execution", "IsAnswer": true },
-            { "Id": 1059, "QuestionId": 1010, "Name": "A good business scenario is Specific, Measureable, Actionable, Realistic and Time-bound", "IsAnswer": true }]
+            { "Id": 1057, "QuestionId": 1010, "Name": "Business Scenarios are principally used during the Architecture Vision and Business Architecture phases of the ADM.", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Business Scenarios describe a business process and application, the business and technology environment, the actors and the desired outcome of proper execution", "IsAnswer": false },
+            { "Id": 1059, "QuestionId": 1010, "Name": "A good business scenario is Specific, Measureable, Actionable, Realistic and Time-bound", "IsAnswer": false }]
         
     },
      {
@@ -348,7 +348,7 @@
             { "Id": 1055, "QuestionId": 1010, "Name": "Higher risk", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "High cost of operation and support", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "High costs of development", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Lower quality", "IsAnswer": true },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Lower quality", "IsAnswer": false },
             { "Id": 1059, "QuestionId": 1010, "Name": "Better understanding of the business and their requirements", "IsAnswer": true }]
         
     },
@@ -359,8 +359,8 @@
         "Options": [
                     { "Id": 1055, "QuestionId": 1010, "Name": "Generic Skills", "IsAnswer": false },
                     { "Id": 1056, "QuestionId": 1010, "Name": "Program or Project Management Skills", "IsAnswer": false },
-                    { "Id": 1057, "QuestionId": 1010, "Name": "Legal Environment", "IsAnswer": true },
-                    { "Id": 1058, "QuestionId": 1010, "Name": "Procurement and Vendor Management", "IsAnswer": false },
+                    { "Id": 1057, "QuestionId": 1010, "Name": "Legal Environment", "IsAnswer": false },
+                    { "Id": 1058, "QuestionId": 1010, "Name": "Procurement and Vendor Management", "IsAnswer": true },
                     { "Id": 1059, "QuestionId": 1010, "Name": "IT General Knowledge Skills", "IsAnswer": false }]
 
             },
@@ -382,10 +382,10 @@
         
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Technology Continuum", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Solutions Continuum", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Solutions Continuum", "IsAnswer": true },
             { "Id": 1057, "QuestionId": 1010, "Name": "Requirements Continuum", "IsAnswer": false },
             { "Id": 1058, "QuestionId": 1010, "Name": "Business Continuum", "IsAnswer": false },
-            { "Id": 1059, "QuestionId": 1010, "Name": "Solutions Building Blocks", "IsAnswer": true }]
+            { "Id": 1059, "QuestionId": 1010, "Name": "Solutions Building Blocks", "IsAnswer": false }]
         
     },
    {
@@ -404,11 +404,11 @@
         "Name": "The TOGAF Resource Base is provided to be of assistance to the architect in the use of the … (complete)", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Repository", "IsAnswer": true },
+            { "Id": 1055, "QuestionId": 1010, "Name": "Repository", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Implementation", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "Plans", "IsAnswer": false },
             { "Id": 1058, "QuestionId": 1010, "Name": "Solutions", "IsAnswer": false },
-            { "Id": 1059, "QuestionId": 1010, "Name": "ADM", "IsAnswer": false }]
+            { "Id": 1059, "QuestionId": 1010, "Name": "ADM", "IsAnswer": true }]
     },
      {
         "Id": 35,
@@ -427,9 +427,9 @@
         "Name": "The TOGAF Qualities of Principles are; Understandability, Robustness, Completeness, Consistency and … (complete) ", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Accessibility", "IsAnswer": true },
+            { "Id": 1055, "QuestionId": 1010, "Name": "Accessibility", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Availability", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Stability", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Stability", "IsAnswer": true },
             { "Id": 1058, "QuestionId": 1010, "Name": "Confidentiality", "IsAnswer": false },
             { "Id": 1059, "QuestionId": 1010, "Name": "Resilience", "IsAnswer": false }]
 
@@ -439,8 +439,8 @@
         "Name": "Business Requirements are of no value in TOGAF.", 
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "True", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "False", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Sometimes", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "False", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Sometimes", "IsAnswer": false },
             { "Id": 1058, "QuestionId": 1010, "Name": "Unsure", "IsAnswer": false },
             { "Id": 1059, "QuestionId": 1010, "Name": "Not Applicable", "IsAnswer": false }]
 
@@ -450,8 +450,8 @@
        "Name": "The TOGAF Foundation Architecture comprises of the Technical Reference Model and the Standards Information … (complete)", 
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Architecture", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Base", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Plans", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Base", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Plans", "IsAnswer": false },
             { "Id": 1058, "QuestionId": 1010, "Name": "Strategy", "IsAnswer": false },
             { "Id": 1059, "QuestionId": 1010, "Name": "Business", "IsAnswer": false }]
 
@@ -461,9 +461,9 @@
         "Name": "The Resource Base contains information on a set of techniques for evaluating and quantifying an organisations EA … (complete) ", 
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Auditability", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Compliance", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Compliance", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Direction", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Maturity", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Maturity", "IsAnswer": true },
             { "Id": 1059, "QuestionId": 1010, "Name": "Stage", "IsAnswer": false }]
         
     },
@@ -472,10 +472,10 @@
        "Name": "In TOGAF, the letters ADM stand for Architecture Development … (complete) ",  
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Meaning", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Method", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Method", "IsAnswer": true },
             { "Id": 1056, "QuestionId": 1010, "Name": "Model", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Maturity", "IsAnswer": true },
-            { "Id": 1059, "QuestionId": 1010, "Name": "Metric", "IsAnswer": true }]
+            { "Id": 1058, "QuestionId": 1010, "Name": "Maturity", "IsAnswer": false },
+            { "Id": 1059, "QuestionId": 1010, "Name": "Metric", "IsAnswer": false }]
         
     }]
 }

@@ -1,7 +1,7 @@
 {
     "quiz": {
         "Id": 4,
-        "name": "Official TOGAF Exam 1 (Check)",
+        "name": "Official Exam 1",
         "logo" : "data/img/exam.jpg"
     },
     "questions": [{

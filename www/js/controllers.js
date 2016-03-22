@@ -245,7 +245,7 @@ angular.module('starter.controllers', [ 'socialShareModule'])
 
 		var correct = $scope.totalQues - $scope.wrong;
 		$scope.score = Math.round((Number(correct) / $scope.totalQues) * 100);
-		$scope.verdict = ($scope.score > 65) ? 'Pass' : 'Fail';
+		$scope.verdict = ($scope.score > 55) ? 'Pass' : 'Fail';
 
 		awsService.updateScoreForTopics(examTopic, $scope.score);
 		$scope.mode.value = 'result';

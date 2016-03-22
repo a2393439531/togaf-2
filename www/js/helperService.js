@@ -44,17 +44,17 @@ angular.module('starter')
 
 .service('awsService',function(localStorageService){
  var topics = [
-                { title: 'Basic Concepts', desc:'', id: 1 ,url:'data/img/togaf.jpg'},
-                { title: 'Core Concepts', desc:'', id: 2 ,url:'data/img/togaf.jpg'},
-                { title: 'Introduction to ADM', desc:'', id: 3 ,url:'data/img/togaf.jpg'},
-                { title: 'Enterprise Continuum & Tools', desc:'', id: 4 ,url:'data/img/togaf.jpg'},
-                { title: 'ADM Phases',desc:'',  id: 5 ,url:'data/img/togaf.jpg'},
-                { title: 'ADM Guidelines & Techniques', desc:'', id: 6 ,url:'data/img/togaf.jpg'},
-                { title: 'Architecture Governance', desc:'', id: 7 ,url:'data/img/togaf.jpg'},
-                { title: 'Arch Views, ViewPoints, Stakeholders', desc:'', id: 8 ,url:'data/img/togaf.jpg'},
-                { title: 'Building Blocks', desc:'', id: 9 ,url:'data/img/togaf.jpg'},
-                { title: 'ADM Deliverables', desc:'', id: 10 ,url:'data/img/togaf.jpg'},
-                { title: 'TOGAF Reference Models', desc:'', id: 11 ,url:'data/img/togaf.jpg'},
+                { title: 'Basic Concepts', desc:'6 questions', id: 1 ,url:'data/img/togaf.jpg'},
+                { title: 'Core Concepts', desc:'5 questions', id: 2 ,url:'data/img/togaf.jpg'},
+                { title: 'Introduction to ADM', desc:'5 questions', id: 3 ,url:'data/img/togaf.jpg'},
+                { title: 'Enterprise Continuum & Tools', desc:'5 questions', id: 4 ,url:'data/img/togaf.jpg'},
+                { title: 'ADM Phases',desc:'5 questions',  id: 5 ,url:'data/img/togaf.jpg'},
+                { title: 'ADM Guidelines & Techniques', desc:'5 questions', id: 6 ,url:'data/img/togaf.jpg'},
+                { title: 'Architecture Governance', desc:'5 questions', id: 7 ,url:'data/img/togaf.jpg'},
+                { title: 'Arch Views, ViewPoints, Stakeholders', desc:'7 questions', id: 8 ,url:'data/img/togaf.jpg'},
+                { title: 'Building Blocks', desc:'5 questions', id: 9 ,url:'data/img/togaf.jpg'},
+                { title: 'ADM Deliverables', desc:'5 questions', id: 10 ,url:'data/img/togaf.jpg'},
+                { title: 'TOGAF Reference Models', desc:'5 questions', id: 11 ,url:'data/img/togaf.jpg'},
              
               ];
 

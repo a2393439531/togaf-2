@@ -8,8 +8,8 @@
        <a class="item item-thumbnail-left item-icon-right" ng-repeat="topic in topics" href="#/app/topics/{{topic.id}}" >
           <img ng-src="{{topic.url}}">
           <h2>{{topic.title}}</h2>
-          <p><small>{{topic.desc}}</small></p>
-          <p>10 questions, 15 minutes</p>
+          <p>{{topic.desc}}</p>
+         <!--  <p>10 questions, 15 minutes</p> -->
           <p>Best Score: {{topic.bestScore || '(Not yet attempted)'}}</p>
           <i class="icon ion-chevron-right icon-accessory"></i>
 

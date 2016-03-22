@@ -15,13 +15,13 @@ angular.module('socialShareModule', [ 'ngCordova' ]).service('shareService', [ '
 		}
 		if(p == 'Android') {
 			platform = 'android';
-			url = 'https://goo.gl/ohd13Y'; // android version
+			url = 'https://goo.gl/oot8Dh'; // android version-togaf
 		}
 		console.log('Device is ' + platform);
 		
 		var appstoreLink = [ url ];
-		var message = "Just thought you might want to check this app out. I found it pretty useful preparing for the AWS Certified SysOps Admin exam. " + url;
-		var tweet = "Great app to help you prepare for the AWS Certified SysOps Admin exam. Check it out in app stores ";
+		var message = "Just thought you might want to check this app out. I found it pretty useful preparing for the TOGAF 9.1 Foundation exam. " + url;
+		var tweet = "Great app to help you prepare for the TOGAF 9.1 Foundation exam. Check it out in app stores ";
 		var subject = "Check out this app in the app store";
 //		var appImage = [ 'data/img/icon.png' ];
 		var appImage = null;
