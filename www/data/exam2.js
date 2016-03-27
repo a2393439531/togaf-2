@@ -94,7 +94,7 @@
 
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Decisions taken should be based on the value accruing to the enterprise only", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "ADM provides a recommended the scope of activity which can be tailored by the organization itself", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "ADM provides a recommended scope of an activity which can be tailored by the organization itself", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "The main guideline is to focus on what creates value to the enterprise, and to select horizontal and vertical scope, and project schedules, accordingly", "IsAnswer": true },
             { "Id": 1058, "QuestionId": 1010, "Name": "Where necessary, use of the ADM should be tailored to meet the needs of the organization but phases cannot be omitted", "IsAnswer": false },
             { "Id": 1059, "QuestionId": 1010, "Name": "Though ADM is iterative, the decisions regarding enterprise coverage, level of detail, time period and architecture asset re-use needs to be take upfront", "IsAnswer": false }]
@@ -404,9 +404,9 @@
         "Name": "Which of the following relationship between view, viewpoint, stakeholder and architecture is correct?", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Stakeholder concern is address by one or more viewpoints", "IsAnswer": false },
+            { "Id": 1055, "QuestionId": 1010, "Name": "Stakeholder concern is addressed by one or more viewpoints", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "An architecture consists of multiple viewpoints", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "One of more viewpoint can be used to cover a concern", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "One of more viewpoints can be used to cover a concern", "IsAnswer": true },
             { "Id": 1058, "QuestionId": 1010, "Name": "A Viewpoint conforms to a view", "IsAnswer": false },
             { "Id": 1059, "QuestionId": 1010, "Name": "Viewpoint library contains multiple views", "IsAnswer": false }]
     },

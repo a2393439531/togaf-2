@@ -12,7 +12,7 @@
             { "Id": 1056, "QuestionId": 1010, "Name": "Budgetary control", "IsAnswer": true },
             { "Id": 1057, "QuestionId": 1010, "Name": "Dispensation", "IsAnswer": false },
             { "Id": 1058, "QuestionId": 1010, "Name": "Monitoring and reporting", "IsAnswer": false },
-            { "Id": 1059, "QuestionId": 1010, "Name": "Business control", "IsAnswer": true }]
+            { "Id": 1059, "QuestionId": 1010, "Name": "Business control", "IsAnswer": false }]
                 
        
     },

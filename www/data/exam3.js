@@ -240,8 +240,8 @@
             { "Id": 1055, "QuestionId": 1010, "Name": "Implementation and Migration Strategy", "IsAnswer": false },
             { "Id": 1056, "QuestionId": 1010, "Name": "Implementation Plan", "IsAnswer": false },
             { "Id": 1057, "QuestionId": 1010, "Name": "Project Charters", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "Work Package Portfolio", "IsAnswer": true},
-            { "Id": 1059, "QuestionId": 1010, "Name": "Interactions with other management frameworks", "IsAnswer": false}]
+            { "Id": 1058, "QuestionId": 1010, "Name": "Work Package Portfolio", "IsAnswer": false},
+            { "Id": 1059, "QuestionId": 1010, "Name": "Interactions with other management frameworks", "IsAnswer": true}]
         
     },
      {

@@ -319,7 +319,7 @@
         
     },{
         "Id": 29,
-        "Name": "Which among the following is a technique for discovering the need for a Capability?", 
+        "Name": "Which among the following is a technique for discovering the need for a Capability?",
         
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Gap Analysis", "IsAnswer": false },
@@ -334,8 +334,8 @@
         
         "Options": [
             { "Id": 1055, "QuestionId": 1010, "Name": "Implementing a system of controls over the creation and monitoring of all architectural components and activities", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Improving the maturity level of architecture discipline within the organization", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Implementing a system to ensure compliance with internal and external standards and regulatory obligations", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Improving the maturity level of architecture discipline within the organization", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Implementing a system to ensure compliance with internal and external standards and regulatory obligations", "IsAnswer": false },
             { "Id": 1058, "QuestionId": 1010, "Name": "Establishing processes that support effective management of the above processes within agreed parameters", "IsAnswer": false },
             { "Id": 1059, "QuestionId": 1010, "Name": "Developing practices that ensure accountability to a clearly identified stakeholder community", "IsAnswer": false }]
         
