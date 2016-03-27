@@ -43,6 +43,14 @@ IOS SCREENSHOTS
 ----
 TIPS
 -----
+For splashcreen :
+sudo ionic platform remove android
+sudo ionic platform add android
+sudo ionic resources
+
+-------------
+
+
 
 ionic platform remove ios
 ionic platform add ios
