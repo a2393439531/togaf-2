@@ -34,7 +34,7 @@ IOS SCREENSHOTS
 1. sudo ionic build ios
 2. Run in emulator using this command: (Replace .app file)
 
-	ios-sim launch /Users/faeezshaikh/git/awsArch/platforms/ios/build/emulator/AWS-Arch.app -devicetypeid com.apple.CoreSimulator.SimDeviceType.iPhone-6s -cls
+	ios-sim launch /Users/faeezshaikh/git/togaf/platforms/ios/build/emulator/TOGAF\ 9.1.app -devicetypeid com.apple.CoreSimulator.SimDeviceType.iPhone-6s -cls
 	
 3. Take screenshots from emulator
 4. Use launchkit.io for appstore images	
@@ -50,7 +50,18 @@ sudo ionic resources
 
 -------------
 
+iOS App Freezing issues
 
+http://cordova.apache.org/announcements/2016/03/02/ios-4.1.0.html14
+
+The steps are as follows:
+
+npm install -g cordova
+cd my_project
+cordova platform rm ios
+cordova platform add ios@4.1.0
+
+---------------------------
 
 ionic platform remove ios
 ionic platform add ios

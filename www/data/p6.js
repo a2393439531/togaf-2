@@ -67,6 +67,18 @@
             { "Id": 1059, "QuestionId": 1010, "Name": "To mitigate risk when implementing an architecture project by comparing the requirements document with the Data Architecture", "IsAnswer": false }]
                 
        
+    },
+    {
+        "Id": 6,
+        "Name": "Which of the following statements best defines the term 'interoperability' in TOGAF 9? (Select 1) ",
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "The ability to share information and services.", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "The ability to share data between systems.", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "The ability for one system to consume data from another system.", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "For two or more systems to use the same data schema.", "IsAnswer": false },
+            { "Id": 1059, "QuestionId": 1010, "Name": "For two or more systems to use the same technology stack.", "IsAnswer": false }]
+                
+       
     }
      ]
 }

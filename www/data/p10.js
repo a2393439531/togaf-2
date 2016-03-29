@@ -67,6 +67,20 @@
             { "Id": 1058, "QuestionId": 1010, "Name": "They are not concerned with the availability of resources, only the required business needs", "IsAnswer": false }]
                 
        
+    },
+    {
+        "Id": 6,
+        "Name": "What of the following will a tailored Architecture Framework include? (Select 4)",
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "A cost versus benefit analysis of the tailoring activity.", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Tailored architecture method.", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Tailored project management method.", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Tailored architecture content.", "IsAnswer": true },
+            { "Id": 1059, "QuestionId": 1010, "Name": "Tailored governance method.", "IsAnswer": false },
+            { "Id": 1060, "QuestionId": 1010, "Name": "Configured and deployed tools.", "IsAnswer": true },
+            { "Id": 1061, "QuestionId": 1010, "Name": "Interfaces with governance models and other frameworks.", "IsAnswer": true }]
+                
+       
     }
      ]
 }

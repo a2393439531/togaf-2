@@ -58,6 +58,17 @@
             { "Id": 1058, "QuestionId": 1010, "Name": "They are product-aware and or vendor-independent.", "IsAnswer": false }]
                 
        
+    },
+    {
+        "Id": 6,
+        "Name": "Which of the following should a Solution Building Block specification contain as a minimum? (Select 2)",
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "A set of implemented interfaces.", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Details confirming that it is in accordance with future directions and strategies.", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Design drivers and constraints, including physical architecture.", "IsAnswer": true },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Opportunities for infrastructure simplification.", "IsAnswer": false }]
+                
+       
     }
      ]
 }

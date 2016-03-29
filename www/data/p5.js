@@ -74,6 +74,22 @@
             { "Id": 1060, "QuestionId": 1010, "Name": "Selecting architecture viewpoints to demonstrate how stakeholder concerns are addressed in the Business Architecture. ", "IsAnswer": false }]
                 
        
+    },
+    {
+        "Id": 6,
+        "Name": "Which of the following are objectives of the Architecture Visioning Phase? (Select 6)",
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Obtain management commitment and obtain formal approval to proceed.", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Establish an Architecture Change Management process for the new Enterprise Architecture baseline.", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Define and organise an architecture development cycle.", "IsAnswer": true },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Validate Business Principles, goals, drivers and Key Performance Indicators (KPIs).", "IsAnswer": true },
+            { "Id": 1059, "QuestionId": 1010, "Name": "Develop the Application Architecture to define the kind of application systems needed to process the data and support the business. ", "IsAnswer": false },
+            { "Id": 1060, "QuestionId": 1010, "Name": "Identify stakeholders, their concerns, objectives and define business requirements and constraints.", "IsAnswer": true },
+            { "Id": 1061, "QuestionId": 1010, "Name": "Develop the Data Architecture to define the types and sources of data needed to support the business in a way that can be understood by the stakeholders.", "IsAnswer": false },
+            { "Id": 1062, "QuestionId": 1010, "Name": "Define, scope and prioritise architecture tasks and articulate an Architecture Vision and value proposition to respond to the requirements and constraints.", "IsAnswer": true },
+            { "Id": 1063, "QuestionId": 1010, "Name": "Create a comprehensive plan inline with the project management frameworks adopted by the enterprise and understand the impact of other architecture development cycles working in parallel.", "IsAnswer": true }]
+                
+       
     }
      ]
 }
