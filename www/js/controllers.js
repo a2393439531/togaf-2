@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [ 'socialShareModule'])
 
-.controller('AppCtrl', function($scope, $stateParams, $state, $http, helperService, $ionicModal, localStorageService, awsService, $rootScope, topicMap, shareService) {
+.controller('AppCtrl', function($scope, $stateParams, $state, $http, helperService, $ionicModal, localStorageService, awsService, $rootScope, topicMap, shareService,$ionicScrollDelegate) {
 
 	var warned = false;
 	var practiceExam = false;
@@ -126,6 +126,8 @@ angular.module('starter.controllers', [ 'socialShareModule'])
 			$scope.currentPage = index;
 			$scope.mode.value = 'quiz';
 		}
+			console.log("scrolling");
+			$ionicScrollDelegate.$getByHandle('mainScroll').scrollTop(true);
 	}
 
 	$scope.onSelect = function(question, option) {
@@ -158,6 +160,8 @@ angular.module('starter.controllers', [ 'socialShareModule'])
 			// Otherwise we dont show warning and directly calculate score.
 			calculateAndUpdateScore();
 		}
+
+			$ionicScrollDelegate.$getByHandle('mainScroll').scrollTop(true);
 
 	}
 

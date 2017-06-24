@@ -60,5 +60,17 @@
                 
        
     }
+    ,
+    {
+        "Id": 6,
+        "Name": "Which of the following are not architectural work products? (Select 2)",
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "A deliverable.", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "The Standards Information Base.", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "A building block.", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "The Governance Log.", "IsAnswer": false }]
+                
+       
+    }
      ]
 }
