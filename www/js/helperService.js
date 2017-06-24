@@ -45,7 +45,7 @@ angular.module('starter')
 .service('awsService',function(localStorageService){
  var topics = [
                 { title: 'Basic Concepts', desc:'6 questions', id: 1 ,url:'data/img/togaf.jpg'},
-                { title: 'Core Concepts', desc:'5 questions', id: 2 ,url:'data/img/togaf.jpg'},
+                { title: 'Core Concepts', desc:'6 questions', id: 2 ,url:'data/img/togaf.jpg'},
                 { title: 'Introduction to ADM', desc:'5 questions', id: 3 ,url:'data/img/togaf.jpg'},
                 { title: 'Enterprise Continuum & Tools', desc:'5 questions', id: 4 ,url:'data/img/togaf.jpg'},
                 { title: 'ADM Phases',desc:'6 questions',  id: 5 ,url:'data/img/togaf.jpg'},
